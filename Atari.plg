@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Atari - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP7251.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Atari.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\raz\Atari\direction tank move.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP7251.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP7252.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Atari.pdb" /debug /machine:I386 /out:"Debug/Atari.exe" /pdbtype:sept 
+".\Debug\atari (main).obj"
+".\Debug\backround define.obj"
+.\Debug\bomb.obj
+".\Debug\bomber choose.obj"
+".\Debug\bonus monster.obj"
+".\Debug\clear object.obj"
+".\Debug\direction tank move.obj"
+".\Debug\drop rocket.obj"
+".\Debug\end of game.obj"
+.\Debug\Engine.obj
+".\Debug\hit bomb.obj"
+".\Debug\hit bonus.obj"
+".\Debug\hit monster.obj"
+".\Debug\monster define.obj"
+".\Debug\monster move.obj"
+".\Debug\move object.obj"
+".\Debug\new arrow aprroval.obj"
+.\Debug\openning.obj
+".\Debug\screen location.obj"
+".\Debug\set color.obj"
+".\Debug\set cursor.obj"
+".\Debug\shotting arrows.obj"
+".\Debug\tank define.obj"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP7252.TMP"
+<h3>Output Window</h3>
+Compiling...
+direction tank move.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Atari.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
