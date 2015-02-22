@@ -12,12 +12,10 @@
 
 
 #include <time.h>
-#include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <windows.h>
-#include <mmsystem.h>
+#include <stdbool.h>
 
 
 //TIMERS
@@ -306,4 +304,4 @@ void      End_Of_Game		   (
 								);
 
 
-#endif __ATARI_H__
+#endif
