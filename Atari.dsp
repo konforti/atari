@@ -7,19 +7,19 @@
 CFG=Atari - Win32 Debug
 !MESSAGE This is not a valid makefile. To build this project using NMAKE,
 !MESSAGE use the Export Makefile command and run
-!MESSAGE 
+!MESSAGE
 !MESSAGE NMAKE /f "Atari.mak".
-!MESSAGE 
+!MESSAGE
 !MESSAGE You can specify a configuration when running NMAKE
 !MESSAGE by defining the macro CFG on the command line. For example:
-!MESSAGE 
+!MESSAGE
 !MESSAGE NMAKE /f "Atari.mak" CFG="Atari - Win32 Debug"
-!MESSAGE 
+!MESSAGE
 !MESSAGE Possible choices for configuration are:
-!MESSAGE 
+!MESSAGE
 !MESSAGE "Atari - Win32 Release" (based on "Win32 (x86) Console Application")
 !MESSAGE "Atari - Win32 Debug" (based on "Win32 (x86) Console Application")
-!MESSAGE 
+!MESSAGE
 
 # Begin Project
 # PROP AllowPerConfigDependencies 0
@@ -75,7 +75,7 @@ LINK32=link.exe
 # ADD BASE LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /debug /machine:I386 /pdbtype:sept
 # ADD LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib /nologo /subsystem:console /debug /machine:I386 /pdbtype:sept
 
-!ENDIF 
+!ENDIF
 
 # Begin Target
 
@@ -86,95 +86,95 @@ LINK32=link.exe
 # PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
 # Begin Source File
 
-SOURCE=".\atari (main).cpp"
+SOURCE=".\atari.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\backround define.cpp"
+SOURCE=".\backround define.c"
 # End Source File
 # Begin Source File
 
-SOURCE=.\bomb.cpp
+SOURCE=.\bomb.c
 # End Source File
 # Begin Source File
 
-SOURCE=".\bomber choose.cpp"
+SOURCE=".\bomber choose.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\bonus monster.cpp"
+SOURCE=".\bonus monster.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\clear object.cpp"
+SOURCE=".\clear object.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\direction tank move.cpp"
+SOURCE=".\direction tank move.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\drop rocket.cpp"
+SOURCE=".\drop rocket.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\end of game.cpp"
+SOURCE=".\end of game.c"
 # End Source File
 # Begin Source File
 
-SOURCE=.\Engine.cpp
+SOURCE=.\Engine.c
 # End Source File
 # Begin Source File
 
-SOURCE=".\hit bomb.cpp"
+SOURCE=".\hit bomb.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\hit bonus.cpp"
+SOURCE=".\hit bonus.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\hit monster.cpp"
+SOURCE=".\hit monster.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\monster define.cpp"
+SOURCE=".\monster define.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\monster move.cpp"
+SOURCE=".\monster move.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\move object.cpp"
+SOURCE=".\move object.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\new arrow aprroval.cpp"
+SOURCE=".\new arrow aprroval.c"
 # End Source File
 # Begin Source File
 
-SOURCE=.\openning.cpp
+SOURCE=.\openning.c
 # End Source File
 # Begin Source File
 
-SOURCE=".\screen location.cpp"
+SOURCE=".\screen location.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\set color.cpp"
+SOURCE=".\set color.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\set cursor.cpp"
+SOURCE=".\set cursor.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\shotting arrows.cpp"
+SOURCE=".\shotting arrows.c"
 # End Source File
 # Begin Source File
 
-SOURCE=".\tank define.cpp"
+SOURCE=".\tank define.c"
 # End Source File
 # End Group
 # Begin Group "Header Files"
